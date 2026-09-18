@@ -1,0 +1,61 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*credentials*.json
+*secrets*.json
+
+# Python environments and generated files
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# JavaScript dependencies and build output
+node_modules/
+.next/
+out/
+build/
+dist/
+*.tsbuildinfo
+
+# Local logs and runtime output
+*.log
+*.log.*
+
+# Datasets and trained model artifacts
+Indian/
+trained model/
+*.h5
+*.hdf5
+*.keras
+*.ckpt
+*.onnx
+*.pt
+*.pth
+*.weights
+*.weights.*
+
+# OS and editor files
+.DS_Store
+.AppleDouble
+.LSOverride
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Package manager and tool caches
+.cache/
+.coverage
+coverage/
+htmlcov/
